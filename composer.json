@@ -1,0 +1,20 @@
+{
+    "name": "tohtamysh/laravel-phpbb-bridge",
+    "description": "Authentication module for Laravel 5.4 and phpBB 3.2",
+    "keywords": ["phpbb", "phpbb3", "laravel", "laravel5"],
+    "license": "MIT",
+    "authors": [{
+        "name": "Tohtamysh",
+        "email": "tohtamysh@gmail.com"
+    }],
+    "require": {
+        "php": ">=5.4.0",
+        "illuminate/support": "5.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Tohtamysh\\LaravelPhpbbBridge\\": "src/LaravelPhpbbBridge"
+        }
+    },
+    "minimum-stability": "stable"
+}
