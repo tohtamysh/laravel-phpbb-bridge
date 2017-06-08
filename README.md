@@ -14,7 +14,7 @@ composer require tohtamysh/laravel-phpbb-bridge
 Register the Service Provider by adding it to your project's providers array in app.php
 ``` php
 'providers' => array(
-    'Tohtamysh\LaravelPhpbbBridge\LaravelPhpbbBridgeServiceProvider',
+    Tohtamysh\LaravelPhpbbBridge\LaravelPhpbbBridgeServiceProvider::class,
 );
 ```
 ##### publish config file
